@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'Roman'; 
+  src: url('fuentes/constantine.regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body{
+   background-image: url("../img/fondo.jpeg");
+    background-size: cover;
+    font-family: 'Roman', serif;
+    text-align: center;
+    font-size: 30px;
+    color: #af860b;
+    margin: 0;
+ }
+
+ header h1{
+   margin: 0;
+    background-color: #af860b;
+    color: #972020;
+    padding: 0px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 0;
+ }
+
+nav ul {
+   background-color: #af860b;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #72570e;
+}
+
+nav a:hover {
+    color: #972020;
+    text-decoration: underline;
+}
+ 
+ main{
+   margin-left: 500px;
+   margin-right: 500px;
+   font-weight: normal;
+   text-shadow: 2px 2px 2px #72570e;
+ }
+ section h3 {
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #72570e;
+    margin-top: 0;
+    text-shadow: 2px 2px 2px #72570e;
+ }
